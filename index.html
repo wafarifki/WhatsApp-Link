@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html translate="no">
+<head>
+    <meta charset="UTF-8">
+    <title>WhatsApp-Link</title>
+    <meta name="google" content="notranslate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/jpeg" href="uploads/favicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Allows you to send messages whatsapp to numbers that have not been added to contacts without the need to add those numbers to your contacts.">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WhatsApp-Link" />
+    <meta property="og:site_name" content="WhatsApp-Link" />
+    <meta property="og:url" content="https://wafarifki.github.io/WhatsApp-Link/" />
+    <meta property="og:description" content="Allows you to send messages whatsapp to numbers that have not been added to contacts without the need to add those numbers to your contacts." />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="360" />
+    <meta property="og:image" content="uploads/ogimage.jpeg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site_name" content="WhatsApp-Link" />
+    <meta property="twitter:url" content="https://wafarifki.github.io/WhatsApp-Link/" />
+    <meta property="twitter:title" content="WhatsApp-Link" />
+    <meta property="twitter:description" content="Allows you to send messages whatsapp to numbers that have not been added to contacts without the need to add those numbers to your contacts." />
+    <meta property="twitter:image" content="uploads/ogimage.jpeg" />
+
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+    <meta property="og:image" content="uploads/ogimage2.jpeg" />
+    
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body id="background">
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="card bg-white shadow-sm containerbox px-3 py-4">
+            <div id="pageone">
+                <div class="px-3 text-center">
+                    <h1 class="ml5 mb-3">
+                        <span class="text-wrapper">
+                            <span class="line line1"></span>
+                            <span class="letters letters-left">WhatsApp</span>
+                            <span class="letters letters-right">Link</span>
+                            <span class="line line2"></span>
+                        </span>
+                    </h1>
+                    
+                    <div class="form-group text-start">
+                        <input autocomplete="off" type="number" id="number" class="form-control w-100" placeholder="Input Number Phone Here..." />
+                        <span class="teks10 text-danger" id="error"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea autocomplete="off" id="message" rows="4" class="form-control w-100" placeholder="Input Message Here (Optional)..."></textarea>
+                    </div>
+                    <button id="submit" class="tombol mt-3">Send Message To WhatsApp</button>
+                </div>
+            </div>
+            <div id="pagetwo">
+                <div class="px-3 text-center">
+                    <p class="text-success">Succesfully Redirected</p>
+                    <img src="uploads/sukses.gif" class="w-50" />
+                    <button id="sendagain" class="tombol mt-3">Send Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.154.0/three.min.js" integrity="sha512-WafpPDLG+DwH6lDCsUrzvXU6/TAEFoUmK5udCmfzEoYyK28uXLF5DWk3yLOQ1PqLo9cxH/Ys/Jex6q1jHu+EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.clouds.min.js" integrity="sha512-b69OnXWaP5341Ea0Yk7i2mlNH+OurIW4udbikKpmYneTePmKbiu+S1qxGanqUchivRNC8df5dT4Tty19SElAHw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

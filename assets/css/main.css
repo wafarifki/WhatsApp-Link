@@ -1,0 +1,98 @@
+input:focus, textarea:focus,
+input:active, textarea:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #128C7E !important;
+}
+
+.ml5 {
+    position: relative;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #128C7E;
+}
+
+.ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.40em;
+    line-height: 1em;
+}
+
+.ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #128C7E;
+    transform-origin: 0.5 0;
+}
+
+.ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+}
+
+.containerbox {
+    width: 50%;
+}
+
+.tombol {
+    background-color: #128C7E;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 30px 13px 30px;
+    border: 1.5px solid #fff;
+    width: 100%;
+    outline: none;
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+.tombol:hover{
+    background-color: #fff;
+    border: 1.5px solid #128C7E;
+    color: #128C7E;
+}
+
+.teks10 {
+    font-size: 10px;
+}
+
+@media (min-width: 290px) and (max-width: 670px) {
+    .containerbox {
+        width: 100%;
+    }
+
+    .ml5 {
+        position: relative;
+        font-weight: bold;
+        font-size: 2em;
+        color: #128C7E;
+        letter-spacing: 4px;
+    }
+
+    .tombol {
+        background-color: #128C7E;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 30px 13px 30px;
+        border: 1.5px solid #fff;
+        width: 100%;
+        outline: none;
+        box-shadow: none;
+        border-radius: 6px;
+    }
+
+    .tombol:hover, .tombol:active, .tombol:focus {
+        background-color: #fff;
+        border: 1.5px solid #128C7E;
+        color: #128C7E;
+    }
+    
+}
